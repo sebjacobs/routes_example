@@ -1,3 +1,3 @@
 RoutesExample::Application.routes.draw do
-  resources :posts
+  resources :posts, constraints: { format: :html }
 end
